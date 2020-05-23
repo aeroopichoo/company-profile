@@ -201,6 +201,15 @@ nav {
     color: white;
 }
 
+.footer ul li {
+    font-size: 20px;
+}
+
+.footer .copyright {
+    font-size: 16px;
+}
+
+
 
 /* Akhir Footer */
 
@@ -419,6 +428,11 @@ nav {
 
 .footer * {
     color: white;
+}
+
+
+.footer .copyright {
+    font-size: 22px;
 }
 
 
