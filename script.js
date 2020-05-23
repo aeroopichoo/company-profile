@@ -15,3 +15,13 @@ $('.page-scroll').on('click', function(e) {
     e.preventDefault();
 
 });
+
+$(document).ready(function(){
+    $('#check-centang').click(function(){
+        if($(this).is(':checked')){
+            $('#password').attr('type', 'text');
+        }else{
+            $('#password').attr('type', 'password');
+        };
+    });
+});
